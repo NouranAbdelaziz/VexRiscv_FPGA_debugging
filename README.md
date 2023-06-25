@@ -3,8 +3,8 @@ In this tutorial, I will replicate the work in [this](https://tomverbeure.github
 ### 1. Generating bitstream
 I used Xilinx Vivado to implemenet the design on FPGA 
 * The RTL files you will need are [top.v](https://github.com/tomverbeure/vexriscv_ocd_blog/blob/main/rtl/top.v) and [VexRiscvWithDebug.v](https://github.com/tomverbeure/vexriscv_ocd_blog/blob/main/spinal/VexRiscvWithDebug.v).
-* You will need the program hex files which you can find [here]() Those files will be generated when you clone [vexriscv_ocd_blog repo](https://github.com/tomverbeure/vexriscv_ocd_blog) and build the software using Makefile in sw directory. The program toggles the three LEDs in the FPGA in sequence. You will need to convert the hex files to mem files inorder to be recognized by Vivado.
-* You will also need a constraints file for the Cmod A7 FPGA which you can find in this repository [here](). If you want the ready bitstream to program your FPGA with, you can find it [here]()
+* You will need the program files which you can find [here](https://github.com/NouranAbdelaziz/VexRiscv_FPGA_debugging/tree/main/mem_files) Those files will be generated when you clone [vexriscv_ocd_blog repo](https://github.com/tomverbeure/vexriscv_ocd_blog) and build the software using Makefile in sw directory. The program toggles the three LEDs in the FPGA in sequence. You will need to convert the hex files to mem files inorder to be recognized by Vivado.
+* You will also need a constraints file for the Cmod A7 FPGA which you can find in this repository [here](https://github.com/NouranAbdelaziz/VexRiscv_FPGA_debugging/blob/main/vexriscv_cmodA7.xdc). If you want the ready bitstream to program your FPGA with, you can find it [here](https://github.com/NouranAbdelaziz/VexRiscv_FPGA_debugging/blob/main/vexriscv_toggle.bit)
 
 ### 2. Hardware Setup
 The hardware tools I used are:
