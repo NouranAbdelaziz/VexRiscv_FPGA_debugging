@@ -1,5 +1,5 @@
 # VexRiscv_FPGA_debugging
-In this tutorial, I will replicate the work in [this](https://tomverbeure.github.io/rtl/2018/12/06/The-VexRiscV-CPU-A-New-Way-To-Design.html) tutorial but with using Cmod A7 FPGA and vscode gui for debugging. 
+In this tutorial, I will replicate the work in [this](https://tomverbeure.github.io/2021/07/18/VexRiscv-OpenOCD-and-Traps.html) tutorial but with using Cmod A7 FPGA and vscode gui for debugging. 
 ### 1. Generating bitstream
 I used Xilinx Vivado to implemenet the design on FPGA 
 * The RTL files you will need are [top.v](https://github.com/tomverbeure/vexriscv_ocd_blog/blob/main/rtl/top.v) and [VexRiscvWithDebug.v](https://github.com/tomverbeure/vexriscv_ocd_blog/blob/main/spinal/VexRiscvWithDebug.v).
